@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Tue, 16 Nov 2021 17:07:34 +0100
+Source: linuxptp
+Binary: linuxptp
+Architecture: source i386
+Version: 3.1.1-1.2gt
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Changed-By: Roel van de Kraats <roel@2getthere.eu>
+Description:
+ linuxptp   - Precision Time Protocol (PTP, IEEE1588) implementation for Linux
+Changes:
+ linuxptp (3.1.1-1.2gt) unstable; urgency=medium
+ .
+   * Updated to upstream 3.1.1
+   * Added init.d service script
+Checksums-Sha1:
+ f09c540d78c9b25cad05493a68ff94ec4c2da55f 1167 linuxptp_3.1.1-1.2gt.dsc
+ f905eabc6fd0f03c6a353f9c4ba188a3bd1b774c 218784 linuxptp_3.1.1.orig.tar.gz
+ c6ee5daaad1784b4883c13ad58a3849331a920dd 4544 linuxptp_3.1.1-1.2gt.debian.tar.xz
+ ac93bf7a602831c42da257d855a1975d5d37525d 190214 linuxptp_3.1.1-1.2gt_i386.deb
+Checksums-Sha256:
+ cf13761f4244222a2dd36036cca09e059c967095d481704f3110ea5e38805537 1167 linuxptp_3.1.1-1.2gt.dsc
+ 94d6855f9b7f2d8e9b0ca6d384e3fae6226ce6fc012dbad02608bdef3be1c0d9 218784 linuxptp_3.1.1.orig.tar.gz
+ 8d7e292f163c448320014f5bf98f005fa2b01e13963ac6c61611b04051b63010 4544 linuxptp_3.1.1-1.2gt.debian.tar.xz
+ d074d8b675fc64af8a1768f4718e915aed3469e55a3d734d9212a1d2ad5000a0 190214 linuxptp_3.1.1-1.2gt_i386.deb
+Files:
+ f2e9e3c9148c345464ddf4b93cc9d136 1167 utils optional linuxptp_3.1.1-1.2gt.dsc
+ 3b79ab5e77c5b5cf06bc1c8350d405bb 218784 utils optional linuxptp_3.1.1.orig.tar.gz
+ 2c5ecb2181acbca191e411865c7d9052 4544 utils optional linuxptp_3.1.1-1.2gt.debian.tar.xz
+ 3efd2918b3323d14ff94dc03dc6cc382 190214 utils optional linuxptp_3.1.1-1.2gt_i386.deb
